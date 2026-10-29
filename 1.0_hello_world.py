@@ -22,10 +22,10 @@ DELIVERABLE
     This file, with your comments and your code.
 """
 
-# 1. In:
-# 2. Process:
-# 3. Out:
-# 4. My message, and why:
+# 1. In: Ouiss
+# 2. Process: print("Ouiss")
+# 3. Out: printing Ouiss 5 times
+# 4. My message, and why: how to run the program, to run the print code
 
 
 # Your code below
