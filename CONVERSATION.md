@@ -86,3 +86,20 @@ Refused, off topic.
 **Tutor:**
 
 Refused, off topic.
+
+---
+## 2026-10-29 10:23, in .
+
+**Me:** how to use the input() in python?
+
+**Tutor:**
+
+The `input()` function pauses the program and waits for the user to type something.
+
+```python
+# Ask the user for their name
+name = input("Enter your name: ")
+print("Hello, " + name + "!")
+```
+
+What does `input()` return?
