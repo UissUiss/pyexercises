@@ -141,3 +141,73 @@ integer_value = int(float_value)  # TODO: What will integer_value be after this 
 ```
 
 Question: Which function converts a string like `"123"` into the integer `123`?
+
+---
+## 2026-10-29 11:11, in .
+
+**Me:** what is sort()
+
+**Tutor:**
+
+The sort() method arranges the items of a list in ascending order by default.
+
+```python
+# TODO: complete this function
+def sort_list(numbers):
+    # TODO: call sort() on the list
+    return numbers
+```
+
+What argument does the sort() method take when you want to sort in descending order?
+
+---
+## 2026-10-29 11:12, in .
+
+**Me:** what argument does the sort() method take when you want to sort in descending order?
+
+**Tutor:**
+
+The sort() method argument for descending order.
+
+```python
+# Sort a list of numbers in descending order
+numbers = [3, 1, 4, 1, 5, 9, 2]
+numbers.sort(reverse=True)  # TODO: what argument makes it descending?
+```
+
+Which built-in value goes inside reverse= to sort descending?
+
+---
+## 2026-10-29 11:13, in .
+
+**Me:** what is pop
+
+**Tutor:**
+
+A list method that removes and returns an item at a given position.
+
+```python
+# TODO: change 1 to the index you want to remove
+item = my_list.pop(1)
+```
+
+What must you pass to `pop` to remove the first element?
+
+---
+## 2026-10-29 11:13, in .
+
+**Me:** what does pop do?
+
+**Tutor:**
+
+A list method that removes and returns an item at a given position.
+
+```python
+# TODO: try removing the last item
+toys = ["puzzle", "robot", "ball"]
+last_toy = toys.pop()  # what is the argument here?
+print(last_toy)
+print(toys)
+```
+
+Which argument makes `pop` remove the first item instead of the last?
