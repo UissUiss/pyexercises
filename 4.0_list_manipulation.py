@@ -26,7 +26,7 @@ DELIVERABLE
     This file, with your comments and your code.
 """
 
-# 1. In:
+# 1. In 5 1 2 8 6 4
 # 2. Process:
 # 3. Out:
 # 4. What my list is about, and what I computed from it:
@@ -52,4 +52,3 @@ list.sort()
 print("sorted list:", list)
 list.pop(2)
 print("list after pop:", list)
-
