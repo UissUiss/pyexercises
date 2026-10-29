@@ -103,3 +103,41 @@ print("Hello, " + name + "!")
 ```
 
 What does `input()` return?
+
+---
+## 2026-10-29 10:57, in .
+
+**Me:** what is float()
+
+**Tutor:**
+
+Converting text to a decimal number.
+
+```python
+# TODO: convert the string "3.14" to a float
+text_value = "3.14"
+number_value = float(text_value)  # TODO: what does float() return?
+```
+
+What does `float()` return when the text cannot be turned into a decimal?
+
+---
+## 2026-10-29 10:57, in .
+
+**Me:** what is int()
+
+**Tutor:**
+
+`int()` is a built-in function that converts a value to an integer.
+
+```python
+# Converting a string to an integer
+text_value = "42"
+integer_value = int(text_value)  # TODO: What will integer_value be after this line?
+
+# Converting a float to an integer
+float_value = 3.14
+integer_value = int(float_value)  # TODO: What will integer_value be after this line?
+```
+
+Question: Which function converts a string like `"123"` into the integer `123`?
