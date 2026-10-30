@@ -35,3 +35,19 @@ DELIVERABLE
 
 
 # Your code below
+i = 0
+while i < 5:
+    print("Attempt number:", i + 1)
+    i = i + 1
+
+
+while True :
+    answer = input("Do you want to continue? (yes/no): ")
+    if answer.strip().lower() == "yes":
+        print("You chose to continue.")
+        break
+    elif answer.strip().lower() == "no":
+        print("You chose not to continue.")
+        break
+    else:
+        print("Invalid input. Please enter 'yes' or 'no'.")

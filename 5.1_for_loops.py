@@ -24,12 +24,10 @@ DELIVERABLE
     This file, with your comments and your code.
 """
 
-# 1. In:
-# 2. Process:
-# 3. Out:
-# 4. What I compute for each item, and why it is worth showing:
-
-
+# 1. In: I want to put a list of names in the program, and I will try to compute the length of each name in the list.
+# 2. Process: For each name in the list, I will calculate its length.
+# 3. Out: The program will print each name along with its length.
+# 4. What I compute for each item, and why it is worth showing: I compute the length of each name to demonstrate how to play with different codes.
 # Your code below
 names = ["Alice", "Bob", "Charlie", "David", "Eve", "Frank"]
 print("List of names and their lengths:")
