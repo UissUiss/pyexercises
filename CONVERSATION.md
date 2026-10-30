@@ -285,3 +285,24 @@ print(count)
 ```
 
 What argument does `len()` expect?
+
+---
+## 2026-10-30 16:56, in .
+
+**Me:** what does the Strip().lower() do?
+
+**Tutor:**
+
+Cleaning text by removing extra spaces and converting to lowercase.
+
+```python
+# Example string
+text = "  HeLLo  "
+
+# Strip whitespace and convert to lowercase
+cleaned = text.strip().lower()
+
+# TODO: What is the output of cleaned?
+```
+
+What does `strip()` remove from the start and end of a string?
