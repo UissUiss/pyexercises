@@ -333,3 +333,48 @@ Refused, off topic.
 **Tutor:**
 
 Refused, off topic.
+
+---
+## 2026-10-30 18:12, in .
+
+**Me:** how to use if()
+
+**Tutor:**
+
+The `if` statement is used to execute a block of code only if a specified condition is true.
+
+```python
+# TODO: Replace the condition and the print statement
+if 5 > 3:
+    print("Condition is true")
+```
+
+What is the keyword used to introduce an alternative block of code that runs when the `if` condition is false?
+
+---
+## 2026-10-30 18:13, in .
+
+**Me:** how to use else()
+
+**Tutor:**
+
+Refused, off topic.
+
+---
+## 2026-10-30 18:13, in .
+
+**Me:** how to use division in python
+
+**Tutor:**
+
+Division in Python is done with the `/` operator.
+
+```python
+# TODO: complete this function
+def divide_numbers(a, b):
+    """Return the result of dividing a by b."""
+    result = a / b
+    return result
+```
+
+What is the operator used for division in Python?
