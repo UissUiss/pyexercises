@@ -24,10 +24,17 @@ DELIVERABLE
     This file, with your comments and your code.
 """
 
-# 1. In:
-# 2. Process:
-# 3. Out:
-# 4. My four transformations, and when each is useful:
+# 1. In: The user will be asked to input a sentence.
+# 2. Process: The program will apply five different string transformations to the input.
+# 3. Out: The program will display the original sentence and the five transformed versions.
+# 4. My five transformations, and when each is useful:
 
 
 # Your code below
+input_sentence = input("Please enter a sentence: ")
+print("Original sentence:", repr(input_sentence))
+print("strip():", repr(input_sentence.strip()))
+print("lower():", repr(input_sentence.lower()))
+print("upper():", repr(input_sentence.upper()))
+print("replace(' ', '_'):", repr(input_sentence.replace(' ', '_')))
+print("split():", input_sentence.split())
