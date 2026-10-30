@@ -324,3 +324,12 @@ Refused, off topic.
 **Tutor:**
 
 Refused, off topic.
+
+---
+## 2026-10-30 17:43, in .
+
+**Me:** give me the string() formulas
+
+**Tutor:**
+
+Refused, off topic.
