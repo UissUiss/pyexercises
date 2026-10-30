@@ -5,7 +5,7 @@ WHAT THE PROGRAM MUST DO
     summary of what happened during the loop.
 
 ANSWER THESE FIRST, in comments at the top of your file
-    1. What goes in?
+    1. What goes in? 
     2. What happens to it?
     3. What comes out?
     4. What is your stop condition, what is your maximum number of attempts, and what
@@ -28,11 +28,10 @@ DELIVERABLE
     This file, with your comments and your code.
 """
 
-# 1. In:
-# 2. Process:
-# 3. Out:
-# 4. My stop condition, my attempt limit, my summary:
-
+# 1. In: The user will be asked to input a response.
+# 2. Process: The program will check if the input matches the expected answer.
+# 3. Out: The program will either continue or exit based on the user's input.
+# 4. My stop condition, my attempt limit, my summary: The stop condition is when the user inputs "yes" or "no". The attempt limit is 5. The summary will show how many attempts were made.
 
 # Your code below
 i = 0
