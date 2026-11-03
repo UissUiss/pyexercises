@@ -479,3 +479,12 @@ print(sum_result)
 ```
 
 What does the `return` statement do in this function?
+
+---
+## 2026-11-03 13:11, in .
+
+**Me:** how to recall from other python examples
+
+**Tutor:**
+
+Refused, off topic.
