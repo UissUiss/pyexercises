@@ -488,3 +488,21 @@ What does the `return` statement do in this function?
 **Tutor:**
 
 Refused, off topic.
+
+---
+## 2026-11-03 13:41, in .
+
+**Me:** how to use open()
+
+**Tutor:**
+
+Opening a file is called **file handling**.
+
+```python
+# TODO: import the csv module
+# TODO: open the file 'toy_data.csv' in read mode
+# TODO: read the file with csv.reader
+# TODO: close the file
+```
+
+Which argument tells `open()` how to open the file?
