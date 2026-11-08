@@ -21,4 +21,44 @@ DELIVERABLE
     This file, with your comments and your code.
 """
 
-# Your code below
+# Exercise 8.1 — Bitwise operators (bonus, not graded)
+
+# 1. What goes in?
+# Three permissions: VIEW, EDIT and PUBLISH.
+
+# 2. What happens to it? We represent each permission using a different bit.
+# We combine permissions, check if one exists,
+# add a permission and remove another.
+
+# 3. What comes out?
+# The program displays the permissions in binary
+# after every operation.
+
+# 4. What are your permissions about?
+# My permissions are about managing a social media campaign.
+# VIEW = Can see the campaign.
+# EDIT = Can modify the campaign.
+# PUBLISH = Can publish the campaign.
+
+# Your code below 
+
+# Assign one bit to each permission
+VIEW = 1       # 001
+EDIT = 2       # 010
+PUBLISH = 4    # 100
+
+# Start with VIEW and EDIT permissions
+permissions = VIEW | EDIT
+
+print("Initial permissions:", format(permissions, '03b'))
+
+# Check if PUBLISH permission is present
+print("Has PUBLISH?", bool(permissions & PUBLISH))
+
+# Add PUBLISH permission
+permissions = permissions | PUBLISH
+print("After adding PUBLISH:", format(permissions, '03b'))
+
+# Remove EDIT permission
+permissions = permissions & ~EDIT
+print("After removing EDIT:", format(permissions, '03b'))
