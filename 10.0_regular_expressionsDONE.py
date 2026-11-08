@@ -27,6 +27,10 @@ CHECK IT YOURSELF
 DELIVERABLE
     This file, with your comments and your code.
 """
+# 1. In: Three pieces of information from the user: Campaign name, Campaign ID, and Campaign hashtag.
+# 2. Process: The program will validate each piece of information using regular expressions. It will check if the Campaign name is between 3 and 20 characters long and contains only letters, numbers, and underscores. The Campaign ID must be exactly 6 digits long. The Campaign hashtag must start with a '#' followed by 3 to 15 alphanumeric characters. If all three pieces of information are valid, they will be saved; otherwise, an error message will be displayed for each invalid field. 
+# 3. Out: The program will output whether the information is valid or not. If valid, it will display the saved campaign information. If invalid, it will display error messages for each invalid field.
+
 
 # Your code below
 
